@@ -1,4 +1,4 @@
-# cryptodl
+# Get Crypto Price Data
 
 A lean CLI for downloading historical crypto OHLCV (candle) data from public exchange
 endpoints — no API keys required. Built on [ccxt](https://github.com/ccxt/ccxt)'s
@@ -126,3 +126,6 @@ interfaces (e.g. an MCP server) can reuse the same functions later.
 
 Caching, incremental updates, gap filling, resampling, multi-symbol batches, config
 files, and trades/order book data.
+
+
+Fuck bitches, get data.
