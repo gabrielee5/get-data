@@ -3,6 +3,7 @@ name = "cryptodl"
 version = "0.1.0"
 description = "Lean CLI for downloading historical crypto OHLCV data from public exchange endpoints"
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "Gabriele Fabietti", email = "fabiettigabriele@gmail.com" }
 ]
