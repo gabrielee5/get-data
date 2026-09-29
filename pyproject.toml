@@ -1,0 +1,27 @@
+[project]
+name = "cryptodl"
+version = "0.1.0"
+description = "Lean CLI for downloading historical crypto OHLCV data from public exchange endpoints"
+readme = "README.md"
+authors = [
+    { name = "Gabriele Fabietti", email = "fabiettigabriele@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "ccxt>=4.5.84",
+    "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
+    "typer>=0.27.2",
+]
+
+[project.scripts]
+cryptodl = "cryptodl.cli:app"
+
+[build-system]
+requires = ["uv_build>=0.12.19,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
